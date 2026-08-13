@@ -177,6 +177,10 @@ If you find my projects interesting, consider giving the repository a ⭐ on Git
 
 Thanks for visiting!
 
+## 📄 License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
 <div align="center">
 
 ### 🚀 Keep Learning. Keep Building. Keep Improving.
