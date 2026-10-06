@@ -1,79 +1,84 @@
-import { motion } from "framer-motion";
+import { FaCalendarAlt, FaMapMarkerAlt } from "react-icons/fa";
 
 const experiences = [
   {
-    type: "Internship",
-    role: "Machine Learning And Python Developer Intern",
+    role: "Machine Learning & Python Developer Intern",
     company: "Cantiliver.in",
     duration: "Jun 2025 – Aug 2025",
     location: "Remote",
+    type: "Internship",
+    description:
+      "Contributed to the data science and analytics team focusing on data automation pipelines and predictive fraud detection modeling.",
     points: [
-      " Engineered automated Python-based data preprocessing pipelines using Pandas and NumPy, reducing manual processing effort by approximately 35% across multiple machine learning workflows.",
-      " Built and evaluated classification models using Scikit-Learn, implementing feature engineering, model evluation, cross-validation, and hyperparameter tuning, improving F1-score by 12%.",
-      "Developed fraud detection solutions using Logistic Regression and Random Forest algorithms, achieving 99% AUC while optimizing model performance and reducing false positives.",
+      "Engineered automated Python-based data preprocessing pipelines using Pandas and NumPy, reducing manual processing effort by ~35% across iterative ML workflows.",
+      "Built, validated, and optimized classification models with Scikit-Learn; implemented rigorous feature engineering, cross-validation, and hyperparameter tuning, elevating the overall model F1-score by 12%.",
+      "Developed end-to-end fraud detection solutions using Logistic Regression and Random Forest algorithms, achieving 99% ROC-AUC while minimizing false positive rates on heavily imbalanced datasets.",
+      "Prepared data visualizations and comprehensive exploratory analysis reports using Matplotlib and Seaborn for stakeholder presentation.",
     ],
-    tech: ["Python", "Scikit-learn", "Pandas","Numpy","Matplotlib","Seaborn","EDA","tkinter"],
+    tech: [
+      "Python",
+      "Scikit-Learn",
+      "Pandas",
+      "NumPy",
+      "Matplotlib",
+      "Seaborn",
+      "EDA",
+      "Tkinter",
+    ],
   },
-//   {
-//     type: "Experience",
-//     role: "Freelance Full Stack Developer",
-//     company: "Self-employed",
-//     duration: "2024 – Present",
-//     location: "Remote",
-//     points: [
-//       "Designed and developed modern portfolio and business websites.",
-//       "Built scalable frontend architectures with React and performance optimizations.",
-//       "Integrated APIs, authentication, and deployment workflows.",
-//     ],
-//     tech: ["React", "Node.js", "MongoDB", "Vercel"],
-//   },
 ];
 
 export default function Experience() {
   return (
-    <section id="experience" className="section">
-      <motion.h2
-        initial={{ opacity: 0, y: 18 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        viewport={{ once: true }}
-      >
-        Experience
-      </motion.h2>
+    <article className="page-content">
+      <header className="page-header">
+        <h1 className="page-title">Experience</h1>
+        <p className="page-subtitle">
+          My professional industry experience and internships in machine learning and software engineering.
+        </p>
+      </header>
 
-      <div className="exp-list">
-        {experiences.map((item, idx) => (
-          <motion.article
-            key={idx}
-            className="exp-card"
-            initial={{ opacity: 0, y: 22 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ delay: idx * 0.08 }}
-            viewport={{ once: true, amount: 0.2 }}
-          >
-            <div className="exp-head">
-              <span className={`exp-pill ${item.type.toLowerCase()}`}>{item.type}</span>
-              <span className="exp-duration">{item.duration}</span>
+      <div className="experience-list">
+        {experiences.map((exp, idx) => (
+          <div key={idx} className="experience-item">
+            <div className="exp-top">
+              <div>
+                <h2 className="exp-role">{exp.role}</h2>
+                <div className="exp-company-row">
+                  <span className="exp-company">{exp.company}</span>
+                  <span className="exp-sep">•</span>
+                  <span className="exp-type">{exp.type}</span>
+                </div>
+              </div>
+
+              <div className="exp-meta">
+                <span className="meta-badge">
+                  <FaCalendarAlt className="meta-icon" /> {exp.duration}
+                </span>
+                <span className="meta-badge">
+                  <FaMapMarkerAlt className="meta-icon" /> {exp.location}
+                </span>
+              </div>
             </div>
 
-            <h3>{item.role}</h3>
-            <p className="exp-company">
-              {item.company} • {item.location}
-            </p>
+            <p className="exp-desc">{exp.description}</p>
 
-            <ul>
-              {item.points.map((p, i) => (
-                <li key={i}>{p}</li>
+            <ul className="exp-bullet-points">
+              {exp.points.map((pt, i) => (
+                <li key={i}>{pt}</li>
               ))}
             </ul>
 
-            <div className="exp-tech">
-              {item.tech.map((t) => (
-                <span key={t}>{t}</span>
+            <div className="exp-tech-tags">
+              {exp.tech.map((t) => (
+                <span key={t} className="tech-tag">
+                  {t}
+                </span>
               ))}
             </div>
-          </motion.article>
+          </div>
         ))}
       </div>
-    </section>
+    </article>
   );
 }
