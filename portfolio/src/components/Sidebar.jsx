@@ -125,11 +125,11 @@ export default function Sidebar({
               <FaXTwitter />
             </a>
             <a
-              href="https://leetcode.com/u/adityaX11/"
+              href="https://leetcode.com/u/Aditya_leet_11/"
               target="_blank"
               rel="noopener noreferrer"
               className="contact-icon-link"
-              title="LeetCode Profile"
+              title="LeetCode Profile: Aditya_leet_11"
               aria-label="LeetCode"
             >
               <SiLeetcode />

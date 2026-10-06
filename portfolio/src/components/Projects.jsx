@@ -5,7 +5,7 @@ const projectsList = [
     id: "churnguard",
     title: "ChurnGuard",
     category: "AI / ML",
-    github: "https://github.com/adityaX11",
+    github: "https://github.com/adityaX11/ChurnGuard.git",
     demo: "https://churnguardmodel.streamlit.app/",
     desc: "An end-to-end customer churn prediction and retention analytics platform. Leverages supervised machine learning classification algorithms to detect early signals of customer attrition from usage metrics, service subscriptions, and behavioral data, enabling businesses to proactively retain at-risk users.",
     highlights: [
@@ -19,7 +19,7 @@ const projectsList = [
     id: "blogvite",
     title: "BlogVite",
     category: "Full-Stack Web",
-    github: "https://github.com/adityaX11",
+    github: "https://github.com/adityaX11/BlogVite.git",
     demo: "https://blogvite.onrender.com",
     desc: "A modern, high-performance full-stack blogging platform and content management system. Features secure user authentication, rich-text markdown article authoring, category filtering, search capabilities, and a responsive reading layout deployed in production on Render.",
     highlights: [

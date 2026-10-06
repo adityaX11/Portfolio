@@ -29,7 +29,7 @@ const educationData = [
     degree: "Senior Secondary (Class 12th / Intermediate Science)",
     institution: "DR R N Singh Plus 2 School",
     affiliation: "Bihar School Examination Board (BSEB)",
-    duration: "2021 – 2023",
+    duration: "2019 – 2021",
     location: "Chapra, Bihar",
     locationUrl:
       "https://www.justdial.com/Chapra/Dr-R-N-Singh-Plus-2-School-Pratap-Nagar/9999P6152-6152-200926235650-S8K4_BZDET",
@@ -45,7 +45,7 @@ const educationData = [
     degree: "Secondary School Examination (Class 10th / Matriculation)",
     institution: "Rajendra Collegiate School",
     affiliation: "Bihar School Examination Board (BSEB)",
-    duration: "2020 – 2021",
+    duration: "2018 – 2019",
     location: "Chapra, Bihar",
     locationUrl:
       "https://www.justdial.com/Chapra/Rajendra-Collegiate-School-Takkad-Morde/9999P6152-6152-220519223958-I8N6_BZDET",

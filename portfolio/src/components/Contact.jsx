@@ -140,7 +140,7 @@ export default function Contact() {
               <FaXTwitter /> X (Twitter)
             </a>
             <a
-              href="https://leetcode.com/u/adityaX11/"
+              href="https://leetcode.com/u/Aditya_leet_11/"
               target="_blank"
               rel="noopener noreferrer"
               className="social-pill glass-btn"
