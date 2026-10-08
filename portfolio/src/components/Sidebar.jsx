@@ -2,6 +2,7 @@ import {
   FaGithub,
   FaLinkedin,
   FaEnvelope,
+  FaFilePdf,
   FaSun,
   FaMoon,
 } from "react-icons/fa";
@@ -133,6 +134,15 @@ export default function Sidebar({
               aria-label="LeetCode"
             >
               <SiLeetcode />
+            </a>
+            <a
+              href="/Aditya_Kumar_Resume.pdf"
+              download="Aditya_Kumar_Resume.pdf"
+              className="contact-icon-link"
+              title="Download Resume (PDF)"
+              aria-label="Download Resume"
+            >
+              <FaFilePdf />
             </a>
           </div>
         </div>

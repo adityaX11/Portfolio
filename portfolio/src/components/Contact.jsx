@@ -4,6 +4,7 @@ import {
   FaGithub,
   FaLinkedin,
   FaEnvelope,
+  FaFilePdf,
   FaCopy,
   FaCheck,
   FaPaperPlane,
@@ -146,6 +147,13 @@ export default function Contact() {
               className="social-pill glass-btn"
             >
               <SiLeetcode /> LeetCode
+            </a>
+            <a
+              href="/Aditya_Kumar_Resume.pdf"
+              download="Aditya_Kumar_Resume.pdf"
+              className="social-pill glass-btn"
+            >
+              <FaFilePdf /> Resume (PDF)
             </a>
           </div>
         </div>
