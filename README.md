@@ -6,7 +6,7 @@
 
 **B.Tech CSE (Artificial Intelligence) Student | AI/ML Enthusiast | Software Developer**
 
-[![Live Portfolio](https://img.shields.io/badge/Live%20Portfolio-Visit%20Website-000000?style=for-the-badge\&logo=vercel\&logoColor=white)](https://portfolio-e6hv.vercel.app/)
+[![Live Portfolio](https://img.shields.io/badge/Live%20Portfolio-Visit%20Website-000000?style=for-the-badge\&logo=vercel\&logoColor=white)](https://aditya-kumar.site/)
 
 [![GitHub](https://img.shields.io/badge/GitHub-adityaX11-181717?style=for-the-badge\&logo=github)](https://github.com/adityaX11)
 
@@ -159,7 +159,7 @@ Interested in collaborating, discussing a project, or connecting with me?
 
 ### 🌐 Portfolio
 
-https://portfolio-e6hv.vercel.app/
+https://aditya-kumar.site/
 
 ### 💻 GitHub
 
